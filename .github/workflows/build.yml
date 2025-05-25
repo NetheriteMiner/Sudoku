@@ -1,0 +1,66 @@
+name: Build and Package
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '21' # Change this to your required Java version
+          distribution: 'temurin'
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+        if: runner.os == 'Linux'
+
+      - name: Build JAR
+        run: ./gradlew shadowJar
+        if: runner.os == 'Linux'
+
+      - name: Build JAR (Windows)
+        run: .\gradlew shadowJar
+        if: runner.os == 'Windows'
+
+      - name: Package Distribution for Current OS
+        run: ./gradlew packageDistributionForCurrentOs
+        if: runner.os == 'Linux'
+
+      - name: Package Distribution for Current OS (Windows)
+        run: .\gradlew packageDistributionForCurrentOs
+        if: runner.os == 'Windows'
+
+      - name: Create Distributable
+        run: ./gradlew createDistributable
+        if: runner.os == 'Linux'
+
+      - name: Create Distributable (Windows)
+        run: .\gradlew createDistributable
+        if: runner.os == 'Windows'
+
+      - name: Upload JAR
+        uses: actions/upload-artifact@v2
+        with:
+          name: jar-files
+          path: build/libs/*.jar
+
+      - name: Upload Distribution
+        uses: actions/upload-artifact@v2
+        with:
+          name: distribution-files
+          path: build/distributions/*
