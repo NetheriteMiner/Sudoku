@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02991285-df5c-492a-ad70-1f99cc945fc0" name="Changes" comment="Initial commit">
+    <list default="true" id="02991285-df5c-492a-ad70-1f99cc945fc0" name="Changes" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Sudoku" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="compose desktop" type="c8890929:TasksNode$1" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -51,18 +52,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "NetheriteMiner"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NetheriteMiner&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NetheriteMiner/Sudoku.git",
-    "accountId": "eef93bd7-1387-4e89-9c8d-61cb2a41394f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NetheriteMiner/Sudoku.git&quot;,
+    &quot;accountId&quot;: &quot;eef93bd7-1387-4e89-9c8d-61cb2a41394f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -75,38 +76,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build Sudoku.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.Preview: MainKt.App.executor": "Run",
-    "Gradle.Sudoku [build].executor": "Run",
-    "Gradle.Sudoku [clean].executor": "Run",
-    "Gradle.Sudoku [createDistributable].executor": "Run",
-    "Gradle.Sudoku [packageDeb].executor": "Run",
-    "Gradle.Sudoku [packageDmg].executor": "Run",
-    "Gradle.Sudoku [packageExe].executor": "Run",
-    "Gradle.Sudoku [packageMsi].executor": "Run",
-    "Gradle.Sudoku [packageReleaseDistributionForCurrentOS].executor": "Run",
-    "Gradle.Sudoku [packageReleaseExe].executor": "Run",
-    "Gradle.Sudoku [package].executor": "Run",
-    "Gradle.desktop.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Sudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Preview: MainKt.App.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [createDistributable].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [packageDeb].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [packageDmg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [packageExe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [packageMsi].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [packageReleaseDistributionForCurrentOS].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [packageReleaseExe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [packageUberJarForCurrentOS].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [package].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sudoku [shadowJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.desktop.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.Sudoku [createDistributable]">
+}</component>
+  <component name="RunManager" selected="Gradle.Sudoku [shadowJar]">
     <configuration name="Sudoku [createDistributable]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -119,28 +123,6 @@
         <option name="taskNames">
           <list>
             <option value="createDistributable" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Sudoku [packageDeb]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="packageDeb" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,7 +155,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Sudoku [packageReleaseExe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sudoku [packageUberJarForCurrentOS]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,7 +166,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="packageReleaseExe" />
+            <option value="packageUberJarForCurrentOS" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -217,13 +199,35 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Sudoku [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Sudoku [shadowJar]" />
+        <item itemvalue="Gradle.Sudoku [packageUberJarForCurrentOS]" />
+        <item itemvalue="Gradle.Sudoku [packageExe]" />
         <item itemvalue="Gradle.Sudoku [createDistributable]" />
         <item itemvalue="Gradle.Sudoku [package]" />
-        <item itemvalue="Gradle.Sudoku [packageExe]" />
-        <item itemvalue="Gradle.Sudoku [packageDeb]" />
-        <item itemvalue="Gradle.Sudoku [packageReleaseExe]" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +252,8 @@
       <workItem from="1748017476277" duration="2836000" />
       <workItem from="1748032914327" duration="8201000" />
       <workItem from="1748099630280" duration="8517000" />
-      <workItem from="1748116155521" duration="7775000" />
+      <workItem from="1748116155521" duration="8796000" />
+      <workItem from="1748140804004" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -258,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748123726130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test">
+      <option name="closed" value="true" />
+      <created>1748124487305</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748124487305</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +299,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
