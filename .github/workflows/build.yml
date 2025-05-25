@@ -54,13 +54,13 @@ jobs:
         if: runner.os == 'Windows'
 
       - name: Upload JAR
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: jar-files
           path: build/libs/*.jar
 
       - name: Upload Distribution
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: distribution-files
           path: build/distributions/*
